@@ -25,12 +25,12 @@ export function Footer() {
           <div className="flex col-span-2 items-center gap-10 mb-10 lg:mb-0 md:gap-36">
             {LINKS.map(({ title, items }) => (
               <ul key={title}>
-                <Typography variant="h6" color="blue-gray" className="mb-4">
+                <Typography placeholder="" variant="h6" color="blue-gray" className="mb-4">
                   {title}
                 </Typography>
                 {items.map((link) => (
                   <li key={link}>
-                    <Typography
+                    <Typography placeholder=""
                       as="a"
                       href="#"
                       className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
@@ -43,21 +43,21 @@ export function Footer() {
             ))}
           </div>
           <div className="">
-            <Typography variant="h6" className="mb-3 text-left">
+            <Typography placeholder="" variant="h6" className="mb-3 text-left">
               Subscribe
             </Typography>
-            <Typography className="!text-gray-500 font-normal mb-4 text-base">
+            <Typography placeholder="" className="!text-gray-500 font-normal mb-4 text-base">
               Get access to subscriber exclusive deals and be the first who gets
               informed about fresh sales.
             </Typography>
-            <Typography variant="small" className="font-medium mb-2 text-left">
+            <Typography placeholder="" variant="small" className="font-medium mb-2 text-left">
               Your Email
             </Typography>
             <div className="flex mb-3 flex-col lg:flex-row items-start gap-4">
               <div className="w-full">
                 {/* @ts-ignore */}
                 <Input label="Email" color="gray" />
-                <Typography className="font-medium mt-3 !text-sm !text-gray-500 text-left">
+                <Typography placeholder="" className="font-medium mt-3 !text-sm !text-gray-500 text-left">
                   I agree the{" "}
                   <a
                     href="#"
@@ -67,19 +67,19 @@ export function Footer() {
                   </a>
                 </Typography>
               </div>
-              <Button color="gray" className="w-full lg:w-fit" size="md">
+              <Button placeholder="" color="gray" className="w-full lg:w-fit" size="md">
                 button
               </Button>
             </div>
           </div>
         </div>
-        <Typography
+        <Typography placeholder=""
           color="blue-gray"
           className="md:text-center mt-16 font-normal !text-gray-700"
         >
           &copy; {CURRENT_YEAR} Made with{" "}
           <a href="https://www.material-tailwind.com" target="_blank">
-            Material Tailwind
+            Awesome Academy
           </a>{" "}
           by{" "}
           <a href="https://www.creative-tim.com" target="_blank">
