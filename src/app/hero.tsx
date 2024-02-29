@@ -5,7 +5,7 @@ import { Button, Typography, Card } from "@material-tailwind/react";
 
 function Hero() {
   return (
-    <div className="!flex h-[55vh] w-full items-center justify-between px-10">
+    <div className="!flex h-[55vh] w-full items-center justify-between sm:px-10">
       <Image
         width={1200}
         height={1200}
@@ -19,19 +19,25 @@ function Hero() {
             <Typography placeholder={"undefined"}
               variant="h1"
               color="blue-gray"
-              className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl"
+              className="lg:text-5xl sm:pt-6 !leading-snug text-3xl lg:max-w-3xl"
             >
               Empowering the Next Generation of Business Leaders
             </Typography>
             <Typography placeholder={"undefined"} variant="lead" className="mb-10 mt-6 !text-gray-900">
-            At Awesome Holdings | School of Business Management, we are committed to providing top-tier education that equips students with the knowledge, skills, and values needed to succeed in {"today's"} dynamic business world. Our programs are designed to cultivate innovative thinking, strategic leadership, and practical business acumen, preparing our graduates to lead with confidence and impact.
+            We are committed to providing top-tier education that equips students with the knowledge, skills, and values needed to succeed in {"today's"} dynamic business world. <span className="sm:block hidden">Our programs are designed to cultivate innovative thinking, strategic leadership, and practical business acumen, preparing our graduates to lead with confidence and impact.</span>
             </Typography>
-            <div className="mb-8 flex justify-center gap-4 lg:justify-start">
-              <Button size="lg" placeholder={"undefined"}  color="gray">view all courses</Button>
+            {
+              process.env.RELEASE=='prod'? <div className="mb-8 flex justify-center gap-4 lg:justify-start">
+              <Button size="sm" placeholder={"undefined"}  color="gray">view all courses</Button>
               <Button placeholder={"undefined"} color="gray" variant="outlined">
                 see pricing
               </Button>
-            </div>
+            </div>:
+            <div className="mb-8 flex justify-center gap-4 lg:justify-start">
+            <Button size="sm" placeholder={"undefined"}  color="gray">Pre-register today</Button>
+            
+          </div>
+            }
             <div className=" hidden grid grid-cols-2 lg:grid-cols-4 items-center justify-between gap-4 lg:justify-start">
               <Image
                 width={144}
