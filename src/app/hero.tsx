@@ -15,26 +15,24 @@ function Hero() {
       />
       <div className="container mx-auto mt-28">
         <div className="grid grid-cols-12 text-center lg:text-left">
-          <Card className="col-span-full rounded-xl border border-white bg-white/90 py-10 p-8 shadow-lg shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-7">
-            <Typography
+          <Card placeholder={"undefined"} className="col-span-full rounded-xl border border-white bg-white/90 py-10 p-8 shadow-lg shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-7">
+            <Typography placeholder={"undefined"}
               variant="h1"
               color="blue-gray"
               className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl"
             >
-              Unlock the Power of the Web with Our Expert Courses
+              Empowering the Next Generation of Business Leaders
             </Typography>
-            <Typography variant="lead" className="mb-10 mt-6 !text-gray-900">
-              Are you ready to embark on an exciting journey into the world of
-              web development? Look no further! We are your trusted partner for
-              mastering the art of web development.
+            <Typography placeholder={"undefined"} variant="lead" className="mb-10 mt-6 !text-gray-900">
+            At Awesome Holdings | School of Business Management, we are committed to providing top-tier education that equips students with the knowledge, skills, and values needed to succeed in {"today's"} dynamic business world. Our programs are designed to cultivate innovative thinking, strategic leadership, and practical business acumen, preparing our graduates to lead with confidence and impact.
             </Typography>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
-              <Button color="gray">view all courses</Button>
-              <Button color="gray" variant="outlined">
+              <Button size="lg" placeholder={"undefined"}  color="gray">view all courses</Button>
+              <Button placeholder={"undefined"} color="gray" variant="outlined">
                 see pricing
               </Button>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-between gap-4 lg:justify-start">
+            <div className=" hidden grid grid-cols-2 lg:grid-cols-4 items-center justify-between gap-4 lg:justify-start">
               <Image
                 width={144}
                 height={144}
