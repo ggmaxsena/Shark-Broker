@@ -3,15 +3,15 @@ import { Typography, Button, Input } from "@material-tailwind/react";
 const LINKS = [
   {
     title: "Company",
-    items: ["About Us", "Careers", "Premium Tools", "Blog"],
+    items: ["About Us", "Blog","Team", "Contact"],
   },
   {
-    title: "Pages",
-    items: ["Login", "Register", "Add List", "Contact"],
+    title: "Account",
+    items: ["Login", "Register", "Free trial",],
   },
   {
     title: "Legal",
-    items: ["Terms", "Privacy", "Team", "About Us"],
+    items: ["Terms", "Privacy", "Cookies", ],
   },
 ];
 
@@ -19,7 +19,7 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <footer className="px-8 pt-24 pb-8">
+    <footer className="px-8 sm:pt-24 pt-56 pb-8 my-28 sm:mst-0">
       <div className="container max-w-6xl flex flex-col mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 !w-full ">
           <div className="flex col-span-2 items-center gap-10 mb-10 lg:mb-0 md:gap-36">
@@ -47,8 +47,7 @@ export function Footer() {
               Subscribe
             </Typography>
             <Typography placeholder="" className="!text-gray-500 font-normal mb-4 text-base">
-              Get access to subscriber exclusive deals and be the first who gets
-              informed about fresh sales.
+             subscriobe to our newsletter and get the lates news and views from our prestigious information desk.
             </Typography>
             <Typography placeholder="" variant="small" className="font-medium mb-2 text-left">
               Your Email
@@ -68,7 +67,7 @@ export function Footer() {
                 </Typography>
               </div>
               <Button placeholder="" color="gray" className="w-full lg:w-fit" size="md">
-                button
+                Subscribe
               </Button>
             </div>
           </div>
@@ -77,14 +76,12 @@ export function Footer() {
           color="blue-gray"
           className="md:text-center mt-16 font-normal !text-gray-700"
         >
-          &copy; {CURRENT_YEAR} Made with{" "}
-          <a href="https://www.material-tailwind.com" target="_blank">
-            Awesome Academy
+          &copy; {CURRENT_YEAR} AIB is a subsidiary of {" "}
+          <a href="https://www.awesomeholdings.org" target="_blank">
+           Awesome Holdings
           </a>{" "}
-          by{" "}
-          <a href="https://www.creative-tim.com" target="_blank">
-            Creative Tim
-          </a>
+          .
+          <span>All rights reserved</span>
           .
         </Typography>
       </div>
