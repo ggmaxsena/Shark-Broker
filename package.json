@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-tailwind-course-landing-page",
-  "version": "1.0.0",
+  "name": "@awesomeholdongs/academy",
+  "version": "0.0.10",
   "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
-  "homepage": "https://demos.creative-tim.com/nextjs-tailwind-course-landing-page",
+  "author": "Mitch Chanza",
+  "license": "GPL-2.0-only",
+  "homepage": "https://academy.awesomeholdings.org",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
