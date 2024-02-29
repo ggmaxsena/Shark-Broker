@@ -52,10 +52,10 @@ export function ExploreCourses() {
   return (
     <section className="px-8">
       <div className="container mx-auto mb-24 text-center">
-        <Typography variant="h2" color="blue-gray">
+        <Typography placeholder="" variant="h2" color="blue-gray">
           Explore Courses
         </Typography>
-        <Typography
+        <Typography placeholder=""
           variant="lead"
           className="mt-2 mx-auto w-full px-4 !text-gray-500 lg:w-6/12 lg:px-8"
         >
