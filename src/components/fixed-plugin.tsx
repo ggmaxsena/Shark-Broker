@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
 import { Button } from "@material-tailwind/react";
+import Link from "next/link";
 
 export function FixedPlugin() {
   return (
-    <a href="https://www.material-tailwind.com" target="_blank">
+    <Link href="/auth/register">
       <Button
         color="white"
         size="sm"
@@ -14,9 +15,10 @@ export function FixedPlugin() {
           height={128}
           className="w-5 h-5"
           alt="Awesome Academy"
-          src="https://www.material-tailwind.com/favicon.png"
+          src="/aibicon.svg"
         />{" "}
-        Register today and get 20% discount      </Button>
-    </a>
+        Register today and get 20% discount
+      </Button>
+    </Link>
   );
 }
