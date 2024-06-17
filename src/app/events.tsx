@@ -35,12 +35,22 @@ export function Events() {
   return (
     <section className="py-20 px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography variant="h2" color="blue-gray" className="mb-4">
+        <Typography
+          variant="h2"
+          color="blue-gray"
+          className="mb-4"
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
+        >
           Upcoming Events
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
         >
           Join our web development events designed to share insights, trends,
           and real-world experiences.
@@ -54,6 +64,4 @@ export function Events() {
     </section>
   );
 }
-
-
 export default Events;

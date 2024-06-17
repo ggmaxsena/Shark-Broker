@@ -52,12 +52,21 @@ export function ExploreCourses() {
   return (
     <section className="px-8">
       <div className="container mx-auto mb-24 text-center">
-        <Typography variant="h2" color="blue-gray">
+        <Typography
+          variant="h2"
+          color="blue-gray"
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
+        >
           Explore Courses
         </Typography>
         <Typography
           variant="lead"
           className="mt-2 mx-auto w-full px-4 !text-gray-500 lg:w-6/12 lg:px-8"
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
         >
           Browse through 1,000+ web development courses and find the one that
           fits your needs.
