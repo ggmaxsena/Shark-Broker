@@ -8,5 +8,5 @@ export * from "./explore-courses";
 export * from "./testimonial";
 export * from "./courses-categories";
 export * from "./events";
-
+export * from "./acconting";
 

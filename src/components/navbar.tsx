@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   Navbar as MTNavbar,
   Collapse,
@@ -14,6 +15,7 @@ import {
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
+import Account1 from "@/app/acconting";
 
 const NAV_MENU = [
   {
@@ -23,6 +25,7 @@ const NAV_MENU = [
   {
     name: "Account",
     icon: UserCircleIcon,
+    href: "/accounting",
   },
   {
     name: "Docs",
@@ -76,8 +79,15 @@ export function Navbar() {
           className="z-50 mt-6 relative border-0 pr-3 py-3 pl-6"
         >
           <div className="flex items-center justify-between">
-            <Typography color="blue-gray" className="text-lg font-bold">
-              Material Tailwind
+            <Typography color="blue-gray" className="text-lg font-bold" >
+            <Image
+            width={8}
+            height={8}
+            src="/image/image8.svg"
+            alt="Shark Broker Icon"
+            className="h-8 w-8 mr-2" // Adjust size as needed
+            />
+            Shark Broker
             </Typography>
             <ul className="ml-10 hidden items-center gap-8 lg:flex">
               {NAV_MENU.map(({ name, icon: Icon, href }) => (

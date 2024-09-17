@@ -21,17 +21,15 @@ function Hero() {
               color="blue-gray"
               className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl"
             >
-              Unlock the Power of the Web with Our Expert Courses
+              Encontre o novo lar dos seus sonhos com a Shark Broker.
             </Typography>
             <Typography variant="lead" className="mb-10 mt-6 !text-gray-900">
-              Are you ready to embark on an exciting journey into the world of
-              web development? Look no further! We are your trusted partner for
-              mastering the art of web development.
+            A SHARK BROKER é a plataforma imobiliária que você procurava para realizar o sonho de vender seu imóvel. Com nossa equipe especializada e ferramentas de última geração, garantimos a máxima visibilidade para o seu anúncio, atraindo compradores qualificados e agilizando o processo de venda.
             </Typography>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
-              <Button color="gray">view all courses</Button>
+              <Button color="gray">Encontre seu Lar</Button>
               <Button color="gray" variant="outlined">
-                see pricing
+                Faça seu Cadastro
               </Button>
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-between gap-4 lg:justify-start">

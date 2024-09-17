@@ -41,14 +41,16 @@ export function OutImpressiveStats() {
       <div className="container mx-auto text-center lg:text-left">
         <div className="grid place-items-center text-center">
           <Typography variant="h2" color="blue-gray" className="mb-2 text-4xl">
-            Explore Our Impressive Stats
+          Resultados que Impulsionam Seus Negócios
           </Typography>
           <Typography
             variant="lead"
             className="mx-auto mb-24 w-full !text-gray-500 lg:w-5/12"
           >
-            We take pride in our commitment to excellence and our dedication to
-            your success.
+            Mais de [número] imóveis vendidos! Nossa plataforma conecta milhares de
+             compradores e vendedores todos os meses. Com [número] de usuários registrados
+              e [número] de visitas diárias, a Enautec é a escolha certa para quem busca o
+               imóvel ideal.
           </Typography>
         </div>
         <div className="grid gap-y-16 gap-x-10 md:grid-cols-2 lg:grid-cols-4">
